@@ -1,0 +1,30 @@
+<md-sidenav-layout fullscreen>
+
+  <md-sidenav #sidenav>
+    <md-toolbar color="accent">
+      Navigation
+    </md-toolbar>
+    <md-nav-list>
+      <a md-list-item *ngFor="let item of navItems"
+        [routerLink]="item.route" (click)="sidenav.close()">
+        <md-icon md-list-icon>{{item.icon}}</md-icon>
+        <span md-line>{{item.label}}</span>
+        <span md-line class="secondary">{{item.description}}</span>
+      </a>
+    </md-nav-list>
+  </md-sidenav>
+
+  <md-toolbar color="primary">
+    <button md-icon-button (click)="sidenav.open()">
+      <md-icon>menu</md-icon>
+    </button>
+    Base
+    <span class="stretch-full"></span>
+    <app-auth></app-auth>
+  </md-toolbar>
+
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+
+</md-sidenav-layout>
