@@ -49,6 +49,8 @@ var barrels = [
     'app/+fbtest',
     'app/auth',
     'app/+home',
+    'app/+admin',
+    'app/+admin/language-admin',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
