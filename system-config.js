@@ -5,10 +5,15 @@
 var map = {
     '@angular2-material': 'vendor/@angular2-material',
     'firebase': 'vendor/firebase/lib/firebase-web.js',
-    'angularfire2': 'vendor/angularfire2'
+    'angularfire2': 'vendor/angularfire2',
+    'highlight': 'vendor/highlightjs'
 };
 /** User packages configuration. */
 var packages = {
+    highlight: {
+        format: 'amd',
+        main: 'highlight.pack.js'
+    },
     angularfire2: {
         defaultExtension: 'js',
         main: 'angularfire2.js'
@@ -51,6 +56,7 @@ var barrels = [
     'app/+home',
     'app/+admin',
     'app/+admin/language-admin',
+    'app/+highlight-test',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
