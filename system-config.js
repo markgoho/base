@@ -57,6 +57,10 @@ var barrels = [
     'app/+admin',
     'app/+admin/language-admin',
     'app/+highlight-test',
+    'app/+snippets',
+    'app/+snippets/+list',
+    'app/+snippets/+detail',
+    'app/+snippets/+edit',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {

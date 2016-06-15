@@ -1,0 +1,11 @@
+.stretch-full {
+  flex: 1 1 auto;
+}
+
+.main-content {
+  padding: 32px;
+}
+
+.secondary {
+  color: var(--secondary-text-color);
+}
