@@ -41,6 +41,7 @@ var barrels = [
     '@angular/core',
     '@angular/common',
     '@angular/compiler',
+    '@angular/forms',
     '@angular/http',
     '@angular/router',
     '@angular/platform-browser',
@@ -51,7 +52,6 @@ var barrels = [
     'app',
     'app/shared',
     'app/navigation',
-    'app/+fbtest',
     'app/auth',
     'app/+home',
     'app/+admin',
@@ -61,6 +61,7 @@ var barrels = [
     'app/+snippets/+list',
     'app/+snippets/+detail',
     'app/+snippets/+edit',
+    'app/+snippets/+add',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
