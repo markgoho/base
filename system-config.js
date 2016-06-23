@@ -26,6 +26,7 @@ var materialPackages = [
     'icon',
     'input',
     'list',
+    'progress-circle',
     'sidenav',
     'toolbar'
 ];
@@ -56,7 +57,6 @@ var barrels = [
     'app/+home',
     'app/+admin',
     'app/+admin/language-admin',
-    'app/+highlight-test',
     'app/+snippets',
     'app/+snippets/+list',
     'app/+snippets/+detail',
