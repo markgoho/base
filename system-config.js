@@ -62,6 +62,7 @@ var barrels = [
     'app/+snippets/+detail',
     'app/+snippets/+edit',
     'app/+snippets/+add',
+    'app/+login',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
